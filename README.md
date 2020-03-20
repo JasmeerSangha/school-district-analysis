@@ -6,11 +6,4 @@
 - PyCitySchools: old version
 
 ## Analysis
-By omitting the 9th grader
-district almost no effect (400/40000 = 1%)
-pass rate for Thomas HS goes from 90s to 60s
-2nd to 8th ranked school concerning overall pass rate
-get nan instead of previous 84% pass rate for 9ers
-630-644 averages hardly budge percentages decrease
-91 down to 85 for school size, shows smaller school better pass rate
-90 to 87 for school type
+By omitting the 9th graders from Thomas Highschool some previous statistics were affected. The distrcit summary showed little to no change do to the fact that the students in question make up 1% of the district's total student population. At Thomas Highschool specifically the averages stay mostly unchanged but the pass rate decreases from approximately 90% to 60%. Understandably, this drops Thomas Highschool's ranking from 2nd best to 8th in the district. This is the largest change in the statistical categories as averages and pass rates organized by per capita budget, school size and school type all decrease slightly. Much like the district summary these numbers depend on the results of a larger group of students thus are affected less by the changes I made. It should be noted that pass rate of reading and math for 9th graders from Thomas Highschool (found in the dataframe for students organized by grade and school) show nan values, as expected. 
